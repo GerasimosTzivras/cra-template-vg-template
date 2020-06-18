@@ -1,0 +1,19 @@
+{
+  "name": "cra-template-vg-template",
+  "version": "1.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "description": "This is a template with everything you need",
+    "main": "template.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
