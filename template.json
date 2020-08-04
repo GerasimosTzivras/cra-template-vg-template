@@ -14,7 +14,9 @@
       "bootstrap": "^4.5.0",
       "react-query": "^1.5.8",
       "@types/react-query": "^1.1.2",
-      "typescript": "^3.9.5"
+      "typescript": "^3.9.5",
+      "@types/i18next": "^13.0.0",
+      "@types/react-i18next": "^8.1.0"
     }
   }
 }

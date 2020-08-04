@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { useTranslation } from "react-i18next";
+import ChangeLanguage from './components/ChangeLanguage'
 function App() {
+  const { t } = useTranslation();
   return (
     <div className="App">
       <header className="App-header">
@@ -16,8 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {t('LAYOUT.LOGIN')}
         </a>
+        <ChangeLanguage />
       </header>
     </div>
   );
