@@ -1,17 +1,18 @@
-import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import React, { lazy } from "react";
+import { Switch, Route} from "react-router-dom";
 
-const App = lazy(() => import("./App"))
+const Compo = lazy(() => import("./components/Compo"));
+const BasicAntDesign = lazy(() =>
+  import("./components/antdesign/BasicAntDesign")
+);
+const BasicSemanticUi = lazy(() => import("./components/semanticui/BasicSemanticUi"))
 
 function Routes(props: any) {
   return (
     <Switch>
-      <Route exact path="/">
-        <Redirect to="/main" />
-      </Route>
-      <Route exact path="/main">
-        <App />
-      </Route>
+      <Route exact path="/" component={Compo} />
+      <Route exact path="/antdesign" component={BasicAntDesign} />
+      <Route exact path="/semanticui" component={BasicSemanticUi} />
     </Switch>
   );
 }

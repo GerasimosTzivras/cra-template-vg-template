@@ -16,7 +16,10 @@
       "@types/react-query": "^1.1.2",
       "typescript": "^3.9.5",
       "@types/i18next": "^13.0.0",
-      "@types/react-i18next": "^8.1.0"
+      "@types/react-i18next": "^8.1.0",
+      "antd": "^4.5.2",
+      "semantic-ui-css": "^2.4.1",
+      "semantic-ui-react": "^1.1.1"
     }
   }
 }
