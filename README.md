@@ -8,10 +8,11 @@ Happy hacking!
 
 ### What do we offer
 
-* A template for React Web Apps with Typescript
-* Choose the presentation language utility
-* Choose the UI framework that you use between AntDesign and Semantic UI
-* Extra installed packages: react-router , bootstrap , react-query 
-* Basic file and folder structure
+- A template for React Web Apps with Typescript
+- Choose the presentation language utility
+- Choose the UI framework that you use between AntDesign and Semantic UI
+- Extra installed packages: react-router , bootstrap , react-query
+- Basic file and folder structure
+- Packages are updated (4/3/21)
 
 ## Happy hacking!
