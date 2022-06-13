@@ -1,8 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import elGR from "../assets/elGR.json";
-import enUS from "../assets/enUS.json";
+import elGR from "../../assets/elGR.json";
+import enUS from "../../assets/enUS.json";
 
 //todo lng must understand automatically if the ip is in greece and send greek or if in other country send en
 i18n.use(initReactI18next).init({

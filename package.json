@@ -1,13 +1,13 @@
 {
   "name": "cra-template-vg-template",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "keywords": [
     "react",
     "create-react-app",
     "template"
   ],
   "description": "This is a template with everything you need",
-    "main": "template.json",
+  "main": "template.json",
   "license": "MIT",
   "engines": {
     "node": ">=10"
@@ -15,5 +15,17 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerasimosTzivras/cra-template-vg-template.git"
+  },
+  "author": "gerasimostzivras",
+  "bugs": {
+    "url": "https://github.com/GerasimosTzivras/cra-template-vg-template/issues"
+  },
+  "homepage": "https://github.com/GerasimosTzivras/cra-template-vg-template#readme"
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Pages = () => {
+const Models = () => {
     return (
         <div>
         </div>
     )
 }
 
-export default Pages
+export default Models

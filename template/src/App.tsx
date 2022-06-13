@@ -1,13 +1,15 @@
 import React, { Suspense, lazy } from "react";
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
-const Layout = lazy(() => import("./app/layout/Layout"));
+import { BrowserRouter } from "react-router-dom";
+
+const Layout = lazy(() => import("./shared/layout/Layout"));
+
 function App() {
   return (
     <Suspense fallback={null}>
-      <Router>
+      <BrowserRouter>
         <Layout />
-      </Router>
+      </BrowserRouter>
     </Suspense>
   );
 }

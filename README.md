@@ -13,6 +13,6 @@ Happy hacking!
 - Choose the UI framework that you use between AntDesign and Semantic UI
 - Extra installed packages: react-router , bootstrap , react-query
 - Basic file and folder structure
-- Packages are updated (4/3/21)
+- Packages are updated (13/6/22)
 
 ## Happy hacking!
